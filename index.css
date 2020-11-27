@@ -10,6 +10,7 @@
 }
 main{
 	background-color: #FEFEFE;
+	overflow-x: hidden;
 }
  #nav-section{
  	background:#24285B; 
@@ -129,10 +130,10 @@ margin-bottom: 20px;
 .howitworkssection article{
 	width: 25%;
 }
-span{
+.howitworkssection span{
 	color:#FFD200;
 	font-size: 60px;
-	margin-left: 80px;
+	margin-left: 70px;
 }
 #bloggers-portal{
 	text-align: center;
@@ -140,7 +141,11 @@ font-weight: 400;
 margin-bottom: 20px;
 margin-top: 40px;
 }
- 
+ footer .fas{
+	color:#FFD200;
+	font-size: 50px;
+margin-right: 50px;
+}
 
 /* end of bloggers portal*/
 
@@ -215,6 +220,7 @@ margin-right: 60px;
 
 #selected-give{
 	background: white;
+
 }
 /*
 margin-bottom class*/
@@ -286,6 +292,8 @@ height: 40px;
 	font-size: 12px;
 	padding: 4px 8px;
 	margin-bottom: 60px;
+	width: 80%;
+	margin-left: 20%;
 }
 
 /*footer*/
@@ -318,7 +326,7 @@ footer a{
 	background: #FFD200;
 	color: white;
 	padding: 8px 16px;
-	margin-left: 70px;
+	margin-left: 120px;
 }
 footer a:hover{
 	text-decoration: none;
@@ -326,7 +334,8 @@ footer a:hover{
 }
 
 footer .fas{
-	margin-left: 35px;
+	
+	text-align: center;
 	margin-top: 30px;
 }
 /*
@@ -357,6 +366,8 @@ ul li{
 	margin-left:8px;
 	box-shadow: 0 2px 4px #EBEAEE;
 	padding: 30px;
+	position: relative;
+	top: -50px;
 }
 #svg{
 	width: 100%;
@@ -397,7 +408,7 @@ margin-top: 18px;
 .howitworkssection article{
 	width: 100%;
 	margin-right: 0;
-	margin: 30px 60px;
+	margin: 30px;
 	padding: 30px;
 	
 }
@@ -422,8 +433,7 @@ margin-top: 18px;
 
 #support-form{
 width: 100%;
-margin-left: 60px;
-z-index: 50;
+margin: 30px;
 }
 
 #first-line{
@@ -434,10 +444,17 @@ display: flex;
 	padding:20px;
 }
 
-#support-form{
-width: 100%;
-margin: 30px;
-
+#securityForm{
+	margin-left: 10%;
+}
+#give-options p{
+	width: 50%;
+	border: 1px solid white;
+	padding: ;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
 }
 
 /*end of sections..mek) footer*/
@@ -449,7 +466,7 @@ margin: 30px;
 }
 
 .footerItems div{
-	width: 50%;
+	width: 33.3%;
 }
 
 #copyright-footer{
@@ -460,11 +477,20 @@ footer{
 }
 footer .fas{
 	margin:20px;
+	margin-left: 45px;
 	margin-top: 30px;
 	font-size: 25px;
+	color: #FFD200;
 }
 #carouselExampleIndicators{
 	height: 300px;
+}
+
+#signupNow{
+width: 100%;
+}
+.small{
+	font-size: 10px;
 }
 }
 
