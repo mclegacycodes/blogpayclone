@@ -1,0 +1,471 @@
+/*vilet: #8264FA
+ yellow: #FFD200
+ deep violet #24285B*/
+*{
+	font-family: 'Poppins', sans-serif;
+}
+/*box-shadow*/
+.box-shadow{
+	box-shadow: 0 2px 4px #EBEAEE;
+}
+main{
+	background-color: #FEFEFE;
+}
+ #nav-section{
+ 	background:#24285B; 
+ 	color: white;
+ }
+ ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin-top: 16px;
+ 	margin-bottom: 16px;
+
+ }
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	border:1px solid #fff;
+	color: #FFD200;
+	font-size: 18px;
+	padding: 8px 16px;
+	border-radius: 8px;
+	margin-left: 20px;
+}
+
+ul li a:hover{
+	color: #FFD200;
+	text-decoration: none;
+}
+
+#logo{
+	height: 50px;
+}
+
+/*end of nav bar*/
+
+.carousel-item{
+	height: 90vh;
+}
+
+/*end of carousel*/
+
+.section1{
+	display: flex;
+	flex-direction: horizontal;
+	margin-top: 30px;
+	box-shadow: 0 2px 4px #EBEAEE;
+	padding: 60px;
+	margin-left: 8%;
+
+}
+
+
+#svg{
+	height: 400px;
+	margin-right: 60px;
+}
+h2{
+	color: #666;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+p{
+	color: #999;
+}
+button{
+	background: #24285B;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 8px;
+	border:none;
+	box-shadow: 0px 3px 4px #E2E1E4;
+	font-size: 18px
+}
+
+/*end of section 1*/
+
+.section2{
+	margin-top: 60px;
+	padding: 60px;
+
+}
+.section2 article h2{
+	font-size: 20px;
+}
+
+/*end of section 2*/
+
+/*how it works*/
+
+.howitworks h2{
+	text-align: center;
+	margin: 40px;
+}
+
+.howitworks article{
+	background-color: #8264FA;
+	color: white;
+	margin-right: 20px;
+	padding: 16px;
+}
+.howitworks article h3{
+text-align: center;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.howitworks article p{
+	color: white;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.howitworkssection{
+	display: flex;
+	flex-direction: horizontal;
+}
+.howitworkssection article{
+	width: 25%;
+}
+span{
+	color:#FFD200;
+	font-size: 60px;
+	margin-left: 80px;
+}
+#bloggers-portal{
+	text-align: center;
+font-weight: 400;
+margin-bottom: 20px;
+margin-top: 40px;
+}
+ 
+
+/* end of bloggers portal*/
+
+.layer1{
+	background: #ccc;
+	margin: 40px;
+}
+.layer1 p{
+	color: black;
+	font-size: 12px;
+
+}
+#first-line{
+display: flex;
+	flex-direction: horizontal;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	padding:20px 60px;
+}
+
+.bg-img-layer{
+	width: 100%;
+	display: flex;
+	flex-direction: horizontal;
+	background:url(./images/b2.jpg);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#support-text{
+	width:60%; 
+	margin-left: 60px;
+}
+#support-text p{
+	font-size: 18px;
+	color: white;
+}
+
+#support-text h1{
+	color: white;
+	font-weight: 700;
+}
+
+
+#support-form{
+width: 45%;
+margin-left: 60px;
+
+}
+
+#give-options{
+display: flex;
+flex-direction: horizontal;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-right: 60px;	
+}
+#support-form form{
+	background: white;
+	margin-right: 60px;
+}
+
+#give-options p{
+	width: 50%;
+	border: 1px solid white;
+	padding: 8px 16px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+
+#selected-give{
+	background: white;
+}
+/*
+margin-bottom class*/
+
+.margin-bottom{
+	margin-bottom: 60px;
+}
+
+/*form no ankasa*/
+
+form{
+	padding: 20px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+
+form input{
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	padding-left: 20px;
+}
+select{
+height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 8px 0 0 8px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	padding-left: 20px;	
+	padding-right: 20px;
+}
+
+.display-inline{
+	display: inline;
+	margin-left: 0;
+	border-radius: 0 8px 8px 0;
+}
+
+#form-button{
+	background:#FFD200;
+	width: 100%;
+	/*text-shadow: 2px 2px rbga(0,0,0,0.9);*/
+}
+
+#inline-elements{
+	display: flex;
+}
+
+
+/*lean more button*/
+
+#learn-button{
+	background: transparent;
+	border:1px solid white;
+	box-shadow:  none;
+}
+#learn-button:hover {
+	background: #FFD200;
+}
+
+#securityForm{
+
+	background: #24285B;
+	color: #FFD200;
+	font-size: 12px;
+	padding: 4px 8px;
+	margin-bottom: 60px;
+}
+
+/*footer*/
+
+footer{
+	background-color: #24285B;
+}
+.footerItems{
+	display: flex;
+	flex-direction: horizontal;
+	flex-wrap: wrap;
+}
+
+.footerItems div{
+	width: 25%;
+}
+
+#copyright-footer{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+
+footer p{
+	text-align: center;
+	color:white;
+}
+footer a{
+	width: 100%;
+	background: #FFD200;
+	color: white;
+	padding: 8px 16px;
+	margin-left: 70px;
+}
+footer a:hover{
+	text-decoration: none;
+
+}
+
+footer .fas{
+	margin-left: 35px;
+	margin-top: 30px;
+}
+/*
+end of webview */
+
+/*starting media queries*/
+
+@media(max-width: 750px){
+
+	/*nav section*/
+ul li{
+ 	list-style: none;
+ 	display: block;
+ 	width: 100%;
+ 	padding: 8px;
+ }
+
+ ul li a{
+	border:1px solid #fff;
+	color: #FFD200;
+	font-size: 18px;
+	padding: 8px 16px;
+	margin:16px;
+}
+.section1{
+	display: flex;
+	flex-direction: vertical;
+	margin-left:8px;
+	box-shadow: 0 2px 4px #EBEAEE;
+	padding: 30px;
+}
+#svg{
+	width: 100%;
+	height: 100%;
+	margin-right: 60px;
+}
+.carousel-item{
+	height: 100vh;
+}
+
+
+
+/*what is blogpay section
+*/
+h2{
+margin-top: 18px;
+}
+
+/*get started section*/
+.section2{
+	margin-top: 60px;
+	padding: 30px;
+	display: flex;
+	flex-direction: vertical;
+
+}
+.section2 article{
+	margin-bottom: 20px;
+}
+
+
+/*how it works section*/
+.howitworkssection{
+	display: flex;
+	flex-direction: vertical;
+	flex-wrap: wrap;
+}
+.howitworkssection article{
+	width: 100%;
+	margin-right: 0;
+	margin: 30px 60px;
+	padding: 30px;
+	
+}
+
+
+/*support us section*/
+#support-text{ 
+	width: 0;
+	display: none;
+}
+.layer1{
+	background: #ccc;
+	margin: 16px;
+}
+
+.bg-img-layer{
+	width: 100%;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#support-form{
+width: 100%;
+margin-left: 60px;
+z-index: 50;
+}
+
+#first-line{
+display: flex;
+	flex-direction: horizontal;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	padding:20px;
+}
+
+#support-form{
+width: 100%;
+margin: 30px;
+
+}
+
+/*end of sections..mek) footer*/
+
+.footerItems{
+	display: flex;
+	flex-direction: vertical;
+	flex-wrap: wrap;
+}
+
+.footerItems div{
+	width: 50%;
+}
+
+#copyright-footer{
+	font-size: 12px;
+}
+footer{
+	font-size: 12px;
+}
+footer .fas{
+	margin:20px;
+	margin-top: 30px;
+	font-size: 25px;
+}
+#carouselExampleIndicators{
+	height: 300px;
+}
+}
+
+/*thank God for a successful coding );*/
